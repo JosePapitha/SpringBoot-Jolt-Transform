@@ -1,0 +1,20 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+		"orders": {
+			"order_id": "order_id",
+			"transaction_id": "transaction_id",
+			"transaction_date": "transaction_date",
+			"items": {
+				"*": {
+					"base_price": "basePrice",
+					"net_price": "net_price",
+					"discount_price": "discount_price"
+				}
+				
+			}
+		}
+	}
+	}
+]

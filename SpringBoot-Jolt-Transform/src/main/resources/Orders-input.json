@@ -1,0 +1,24 @@
+{
+	"orders": {
+	"order_id": "10001",
+	"transaction_id": "TRANC2023",
+	"transaction_date": "04-10-2023",
+	"items": [
+	{
+		"item_id": "1001",
+		"item_name": "Test-1 Sport shoes",
+		"base_price": 1000,
+		"net_price": 700,
+		"discount_price": 300
+	},
+	
+	{
+		"item_id": "1002",
+		"item_name": "Test-2 Sport shoes",
+		"base_price": 1200,
+		"net_price": 1000,
+		"discount_price": 200
+	}
+		]
+	}
+}

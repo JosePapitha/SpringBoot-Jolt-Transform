@@ -14,9 +14,9 @@ public class JoltUtil {
 	        List<?> chainrSpecJSON = JsonUtils.classpathToList(spec);
 	        Chainr chainr = Chainr.fromSpec(chainrSpecJSON);
 	        Object transformedOutput = chainr.transform(inputJson);
-	        ObjectMapper objectMapper = new ObjectMapper();
+	        //ObjectMapper objectMapper = new ObjectMapper();
 	        //objectMapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-	        
+	        //return objectMapper.convertValue(transformedOutput, clazz);
 	        return transformedOutput;
 	    }
 	
